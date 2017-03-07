@@ -23,7 +23,7 @@ var api = new ParseServer({
       bundleId: 'com.jobcreatorsnetwork.information',
       production: true
     }
-  }
+  },
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   }
